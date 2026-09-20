@@ -1,0 +1,204 @@
+﻿file,column,read_dtype,nonmissing_rows,definition_or_pointer
+temporal_extension_2013_2021/07_panel/prefecture_panel_2014_2021_extended.csv,city_code,int64,2368,Six-digit harmonized current-boundary prefecture identifier
+temporal_extension_2013_2021/07_panel/prefecture_panel_2014_2021_extended.csv,city_name,str,2368,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/07_panel/prefecture_panel_2014_2021_extended.csv,province_code,int64,2368,Six-digit province identifier
+temporal_extension_2013_2021/07_panel/prefecture_panel_2014_2021_extended.csv,province_name,str,2368,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/07_panel/prefecture_panel_2014_2021_extended.csv,macro_region,str,2368,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/07_panel/prefecture_panel_2014_2021_extended.csv,centroid_lon,float64,2368,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/07_panel/prefecture_panel_2014_2021_extended.csv,centroid_lat,float64,2368,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/07_panel/prefecture_panel_2014_2021_extended.csv,area_km2,float64,2368,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/07_panel/prefecture_panel_2014_2021_extended.csv,geometry_key,str,2368,Accepted current-boundary GeoJSON key; raw geometry not bundled
+temporal_extension_2013_2021/07_panel/prefecture_panel_2014_2021_extended.csv,geometry_valid,bool,2368,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/07_panel/prefecture_panel_2014_2021_extended.csv,year,int64,2368,Calendar year of GDP growth and current-year light
+temporal_extension_2013_2021/07_panel/prefecture_panel_2014_2021_extended.csv,official_growth_percent,float64,2325,Official reported real GDP growth rate in percent
+temporal_extension_2013_2021/07_panel/prefecture_panel_2014_2021_extended.csv,transformed_log_growth,float64,2325,Natural log of 1 plus official real-GDP growth percentage divided by 100
+temporal_extension_2013_2021/07_panel/prefecture_panel_2014_2021_extended.csv,nominal_gdp_current_price_100m_yuan,float64,2043,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/07_panel/prefecture_panel_2014_2021_extended.csv,gdp_source_title,str,2325,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/07_panel/prefecture_panel_2014_2021_extended.csv,gdp_source_tier,float64,2325,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/07_panel/prefecture_panel_2014_2021_extended.csv,gdp_verification_status,str,2325,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/07_panel/prefecture_panel_2014_2021_extended.csv,gdp_source_provenance,str,2325,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/07_panel/prefecture_panel_2014_2021_extended.csv,nominal_level_provenance,str,591,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/07_panel/prefecture_panel_2014_2021_extended.csv,eog_light_total,float64,2368,EOG annual fixed-support radiance sum
+temporal_extension_2013_2021/07_panel/prefecture_panel_2014_2021_extended.csv,eog_log_light,float64,2368,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/07_panel/prefecture_panel_2014_2021_extended.csv,eog_dln_light,float64,2368,Annual change in log fixed-support EOG V2.1 city light sum
+temporal_extension_2013_2021/07_panel/prefecture_panel_2014_2021_extended.csv,eog_pixel_count,int64,2368,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/07_panel/prefecture_panel_2014_2021_extended.csv,eog_valid_support_count,int64,2368,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/07_panel/prefecture_panel_2014_2021_extended.csv,eog_positive_pixel_count,int64,2368,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/07_panel/prefecture_panel_2014_2021_extended.csv,eog_support_rule,str,2368,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/07_panel/prefecture_panel_2014_2021_extended.csv,eog_mask_metadata,str,2368,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/07_panel/prefecture_panel_2014_2021_extended.csv,bm_light_total,float64,2368,Black Marble annual fixed-support radiance sum
+temporal_extension_2013_2021/07_panel/prefecture_panel_2014_2021_extended.csv,bm_log_light,float64,2368,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/07_panel/prefecture_panel_2014_2021_extended.csv,bm_dln_light,float64,2368,Annual change in log fixed-support VNP46A4.002 city light sum
+temporal_extension_2013_2021/07_panel/prefecture_panel_2014_2021_extended.csv,bm_pixel_count,int64,2368,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/07_panel/prefecture_panel_2014_2021_extended.csv,bm_valid_support_count,int64,2368,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/07_panel/prefecture_panel_2014_2021_extended.csv,bm_positive_pixel_count,int64,2368,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/07_panel/prefecture_panel_2014_2021_extended.csv,bm_support_rule,str,2368,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/07_panel/prefecture_panel_2014_2021_extended.csv,bm_mask_metadata,str,2368,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/07_panel/prefecture_panel_2014_2021_extended.csv,gdp_certified,int64,2368,GDP-growth source cleared the year-specific certification rule
+temporal_extension_2013_2021/07_panel/prefecture_panel_2014_2021_extended.csv,eog_available,int64,2368,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/07_panel/prefecture_panel_2014_2021_extended.csv,black_marble_available,int64,2368,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/07_panel/prefecture_panel_2014_2021_extended.csv,common_product_sample,int64,2368,GDP certified and both light products available on common row
+temporal_extension_2013_2021/07_panel/prefecture_panel_2014_2021_extended.csv,PRIMARY_PRECOVID,int64,2368,Continuous 2014–2019 primary-domain row flag
+temporal_extension_2013_2021/07_panel/prefecture_panel_2014_2021_extended.csv,PANDEMIC_STRESS,int64,2368,Separate 2020–2021 stress-domain row flag
+temporal_extension_2013_2021/07_panel/prefecture_panel_2014_2021_extended.csv,missing_reason,str,2368,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/07_panel/prefecture_panel_2014_2021_extended.csv,created_at,str,2368,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/07_panel/prefecture_panel_2014_2021_extended.csv,version_id,str,2368,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/07_panel/prefecture_panel_2014_2021_extended.csv,script_provenance,str,2368,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/05_ntl_processed/eog_v21_prefecture_2013_2021.csv,prefecture_code,int64,2664,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/05_ntl_processed/eog_v21_prefecture_2013_2021.csv,prefecture_name,str,2664,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/05_ntl_processed/eog_v21_prefecture_2013_2021.csv,province_code,int64,2664,Six-digit province identifier
+temporal_extension_2013_2021/05_ntl_processed/eog_v21_prefecture_2013_2021.csv,province_name,str,2664,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/05_ntl_processed/eog_v21_prefecture_2013_2021.csv,year,int64,2664,Calendar year of GDP growth and current-year light
+temporal_extension_2013_2021/05_ntl_processed/eog_v21_prefecture_2013_2021.csv,light_total,float64,2664,Prefecture annual valid-pixel radiance sum in source product units
+temporal_extension_2013_2021/05_ntl_processed/eog_v21_prefecture_2013_2021.csv,log_light,float64,2664,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/05_ntl_processed/eog_v21_prefecture_2013_2021.csv,annual_log_change,float64,2368,Year-on-year log change in annual light sum
+temporal_extension_2013_2021/05_ntl_processed/eog_v21_prefecture_2013_2021.csv,pixel_count,int64,2664,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/05_ntl_processed/eog_v21_prefecture_2013_2021.csv,valid_support_count,int64,2664,Number of pixels in fixed across-year valid support
+temporal_extension_2013_2021/05_ntl_processed/eog_v21_prefecture_2013_2021.csv,positive_pixel_count,int64,2664,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/05_ntl_processed/eog_v21_prefecture_2013_2021.csv,support_rule,str,2664,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/05_ntl_processed/eog_v21_prefecture_2013_2021.csv,mask_metadata,str,2664,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/05_ntl_processed/eog_v21_prefecture_2013_2021.csv,ntl_product,str,2664,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/05_ntl_processed/eog_v21_prefecture_2013_2021.csv,product_version,str,2664,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/05_ntl_processed/eog_v21_prefecture_2013_2021.csv,boundary_version,str,2664,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/05_ntl_processed/eog_v21_prefecture_2013_2021.csv,source_provenance,str,2664,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/05_ntl_processed/eog_v21_prefecture_2013_2021.csv,created_at,str,2664,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/05_ntl_processed/eog_v21_prefecture_2013_2021.csv,version_id,str,2664,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/05_ntl_processed/eog_v21_prefecture_2013_2021.csv,script_provenance,str,2664,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/05_ntl_processed/blackmarble_prefecture_2013_2021.csv,prefecture_code,int64,2664,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/05_ntl_processed/blackmarble_prefecture_2013_2021.csv,prefecture_name,str,2664,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/05_ntl_processed/blackmarble_prefecture_2013_2021.csv,province_code,int64,2664,Six-digit province identifier
+temporal_extension_2013_2021/05_ntl_processed/blackmarble_prefecture_2013_2021.csv,province_name,str,2664,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/05_ntl_processed/blackmarble_prefecture_2013_2021.csv,year,int64,2664,Calendar year of GDP growth and current-year light
+temporal_extension_2013_2021/05_ntl_processed/blackmarble_prefecture_2013_2021.csv,light_total,float64,2664,Prefecture annual valid-pixel radiance sum in source product units
+temporal_extension_2013_2021/05_ntl_processed/blackmarble_prefecture_2013_2021.csv,log_light,float64,2664,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/05_ntl_processed/blackmarble_prefecture_2013_2021.csv,annual_log_change,float64,2368,Year-on-year log change in annual light sum
+temporal_extension_2013_2021/05_ntl_processed/blackmarble_prefecture_2013_2021.csv,pixel_count,int64,2664,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/05_ntl_processed/blackmarble_prefecture_2013_2021.csv,valid_support_count,int64,2664,Number of pixels in fixed across-year valid support
+temporal_extension_2013_2021/05_ntl_processed/blackmarble_prefecture_2013_2021.csv,positive_pixel_count,int64,2664,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/05_ntl_processed/blackmarble_prefecture_2013_2021.csv,support_rule,str,2664,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/05_ntl_processed/blackmarble_prefecture_2013_2021.csv,mask_metadata,str,2664,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/05_ntl_processed/blackmarble_prefecture_2013_2021.csv,ntl_product,str,2664,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/05_ntl_processed/blackmarble_prefecture_2013_2021.csv,product_version,str,2664,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/05_ntl_processed/blackmarble_prefecture_2013_2021.csv,boundary_version,str,2664,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/05_ntl_processed/blackmarble_prefecture_2013_2021.csv,source_provenance,str,2664,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/05_ntl_processed/blackmarble_prefecture_2013_2021.csv,created_at,str,2664,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/05_ntl_processed/blackmarble_prefecture_2013_2021.csv,version_id,str,2664,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/05_ntl_processed/blackmarble_prefecture_2013_2021.csv,script_provenance,str,2664,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,city_code,int64,1452,Six-digit harmonized current-boundary prefecture identifier
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,city,str,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,year,int64,1452,Calendar year of GDP growth and current-year light
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,province_code,int64,1452,Six-digit province identifier
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,province,str,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,nominal_gdp,float64,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,real_growth_full_pct,float64,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,real_growth_district_pct,float64,1426,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,share_primary_pct,float64,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,share_secondary_pct,float64,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,share_tertiary_pct,float64,1451,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,population_10k,float64,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,employment,float64,1450,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,wage_total_10k,float64,1445,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,electricity_10k_kwh,float64,1385,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,source_row,int64,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,raw_city_code,int64,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,raw_city_name,str,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,manual_geo_correction,int64,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,manual_geo_reason,str,5,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,city_name,str,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,province_code_ntl,int64,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,province_name,str,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,ntl_product,str,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,product_version,str,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,boundary_version,str,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,qa_rule,str,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,n_fixed_pixels,float64,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,n_positive_pixels,float64,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,positive_pixel_share,float64,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,total_light,float64,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,mean_light,float64,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,fixed_lit_sum,float64,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,fixed_lit_pixel_count,float64,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,ntl_hhi,float64,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,top10_light_share,float64,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,n_pixels_gt_1,float64,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,n_pixels_gt_3,float64,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,n_pixels_gt_5,float64,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,n_pixels_gt_10,float64,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,n_pixels_gt_30,float64,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,n_pixels_gt_50,float64,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,n_pixels_gt_100,float64,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,_merge,str,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,match_flag,int64,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,outlier_full_growth_flag,int64,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,outlier_district_growth_flag,int64,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,real_growth_full_pct_clean,float64,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,real_growth_district_pct_clean,float64,1425,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,dln_gdp_full,float64,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,dln_gdp_district,float64,1425,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,trend,int64,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,province_year,str,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,ln_total_light,float64,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,dln_light,float64,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,ln_mean_light,float64,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,dln_mean_light,float64,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,ln_n_pixels_gt_10,float64,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,dln_lit_area_gt10,float64,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,ln_n_pixels_gt_30,float64,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,dln_lit_area_gt30,float64,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,ln_n_pixels_gt_50,float64,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,dln_lit_area_gt50,float64,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,ln_n_pixels_gt_100,float64,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,dln_lit_area_gt100,float64,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,lag_nominal_gdp,float64,1157,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,selected_certification_value,float64,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,source_id,str,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,source_tier,float64,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,certification_status,str,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,workbook_growth_before_certification,float64,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,baseline_gdp_2013,float64,1435,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,baseline_gdp_2016,float64,1440,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,gbar,float64,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,gtilde,float64,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,gtilde_x_trend,float64,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,gbar_x_trend,float64,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,round3_spec,str,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,s_t,int64,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,g_tilde_s,float64,1452,See producing code and manuscript variable definition; original field retained
+round6_gdp_certification/09_certified_rerun/CERTIFIED_CANONICAL_ANALYSIS_SAMPLE.csv,g_bar_s,float64,1452,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/04_ntl_sources/NTL_PRODUCT_FILE_MANIFEST_2012_2021.csv,year,int64,359,Calendar year of GDP growth and current-year light
+temporal_extension_2013_2021/04_ntl_sources/NTL_PRODUCT_FILE_MANIFEST_2012_2021.csv,product,str,359,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/04_ntl_sources/NTL_PRODUCT_FILE_MANIFEST_2012_2021.csv,version,str,359,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/04_ntl_sources/NTL_PRODUCT_FILE_MANIFEST_2012_2021.csv,filename,str,359,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/04_ntl_sources/NTL_PRODUCT_FILE_MANIFEST_2012_2021.csv,file_size_bytes,int64,359,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/04_ntl_sources/NTL_PRODUCT_FILE_MANIFEST_2012_2021.csv,sha256,str,359,"Recorded original external file SHA-256, not of derived CSV"
+temporal_extension_2013_2021/04_ntl_sources/NTL_PRODUCT_FILE_MANIFEST_2012_2021.csv,source_url,str,359,Recorded online source URL; retrieval may need account/access
+temporal_extension_2013_2021/04_ntl_sources/NTL_PRODUCT_FILE_MANIFEST_2012_2021.csv,grid_metadata,str,359,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/04_ntl_sources/NTL_PRODUCT_FILE_MANIFEST_2012_2021.csv,processing_status,str,359,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/04_ntl_sources/NTL_PRODUCT_FILE_MANIFEST_2012_2021.csv,acquisition_record,str,359,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/04_ntl_sources/NTL_PRODUCT_FILE_MANIFEST_2012_2021.csv,created_at,str,359,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/04_ntl_sources/NTL_PRODUCT_FILE_MANIFEST_2012_2021.csv,version_id,str,359,See producing code and manuscript variable definition; original field retained
+temporal_extension_2013_2021/04_ntl_sources/NTL_PRODUCT_FILE_MANIFEST_2012_2021.csv,script_provenance,str,359,See producing code and manuscript variable definition; original field retained
+round4_ijde_identification_closure/_staging/conditional_incremental_predictions.csv,product,str,9272,See producing code and manuscript variable definition; original field retained
+round4_ijde_identification_closure/_staging/conditional_incremental_predictions.csv,city_code,int64,9272,Six-digit harmonized current-boundary prefecture identifier
+round4_ijde_identification_closure/_staging/conditional_incremental_predictions.csv,city_name,str,9272,See producing code and manuscript variable definition; original field retained
+round4_ijde_identification_closure/_staging/conditional_incremental_predictions.csv,province_code,int64,9272,Six-digit province identifier
+round4_ijde_identification_closure/_staging/conditional_incremental_predictions.csv,province_name,str,9272,See producing code and manuscript variable definition; original field retained
+round4_ijde_identification_closure/_staging/conditional_incremental_predictions.csv,macro_region,str,9272,See producing code and manuscript variable definition; original field retained
+round4_ijde_identification_closure/_staging/conditional_incremental_predictions.csv,prediction_year,int64,9272,See producing code and manuscript variable definition; original field retained
+round4_ijde_identification_closure/_staging/conditional_incremental_predictions.csv,y,float64,9272,See producing code and manuscript variable definition; original field retained
+round4_ijde_identification_closure/_staging/conditional_incremental_predictions.csv,x,float64,9272,See producing code and manuscript variable definition; original field retained
+round4_ijde_identification_closure/_staging/conditional_incremental_predictions.csv,centroid_lon,float64,9272,See producing code and manuscript variable definition; original field retained
+round4_ijde_identification_closure/_staging/conditional_incremental_predictions.csv,centroid_lat,float64,9272,See producing code and manuscript variable definition; original field retained
+round4_ijde_identification_closure/_staging/conditional_incremental_predictions.csv,geometry_key,str,9272,Accepted current-boundary GeoJSON key; raw geometry not bundled
+round4_ijde_identification_closure/_staging/conditional_incremental_predictions.csv,benchmark,str,9272,See producing code and manuscript variable definition; original field retained
+round4_ijde_identification_closure/_staging/conditional_incremental_predictions.csv,predicted_raw_benchmark,float64,9272,See producing code and manuscript variable definition; original field retained
+round4_ijde_identification_closure/_staging/conditional_incremental_predictions.csv,predicted_M0,float64,9272,See producing code and manuscript variable definition; original field retained
+round4_ijde_identification_closure/_staging/conditional_incremental_predictions.csv,predicted_M1,float64,9272,See producing code and manuscript variable definition; original field retained
+round4_ijde_identification_closure/_staging/conditional_incremental_predictions.csv,error_M0,float64,9272,See producing code and manuscript variable definition; original field retained
+round4_ijde_identification_closure/_staging/conditional_incremental_predictions.csv,error_M1,float64,9272,See producing code and manuscript variable definition; original field retained
+round4_ijde_identification_closure/_staging/conditional_incremental_predictions.csv,delta_loss_inc,float64,9272,See producing code and manuscript variable definition; original field retained
+round4_ijde_identification_closure/_staging/conditional_incremental_predictions.csv,alpha_M0,float64,9272,See producing code and manuscript variable definition; original field retained
+round4_ijde_identification_closure/_staging/conditional_incremental_predictions.csv,alpha_M1,float64,9272,See producing code and manuscript variable definition; original field retained
+round4_ijde_identification_closure/_staging/conditional_incremental_predictions.csv,gamma_M1,float64,9272,See producing code and manuscript variable definition; original field retained
+round4_ijde_identification_closure/_staging/conditional_incremental_predictions.csv,completed_at,str,9272,See producing code and manuscript variable definition; original field retained
+round4_ijde_identification_closure/_staging/conditional_incremental_predictions.csv,version_id,str,9272,See producing code and manuscript variable definition; original field retained
