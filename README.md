@@ -1,7 +1,7 @@
 # VIIRS temporal validation: extension through 2024
 
 
-The Scientific Reports temporal extension, prepared on 30 September 2026, has been prepared for publication as a versioned [GitHub release](https://github.com/tanbole0214/Temporal-Validation-of-VIIRS-Nighttime-Lights/releases/tag/viirs-2024-20260930). The release is currently a draft awaiting attachment upload. Once published, download its PUBLIC_UPLOAD_READY ZIP; the automatic Source code archives contain only the repository tree, not the statistical package.
+The Scientific Reports temporal extension, prepared on 30 September 2026, is publicly available as a versioned [GitHub release](https://github.com/tanbole0214/Temporal-Validation-of-VIIRS-Nighttime-Lights/releases/tag/viirs-2024-20260930). Download its PUBLIC_UPLOAD_READY ZIP under Assets; the automatic Source code archives contain only the repository tree, not the statistical package.
 
 
 After extraction, enter `extensions/viirs_2013_2024_20260930/` and follow `README_TEMPORAL_EXTENSION.md`: install the pinned requirements, then run `python run_extension.py --check` and `python run_extension.py --reproduce`. The package includes derived inputs, the 2014–2024 panel, predictions, table-source CSVs, eight SVGs, provenance and SHA-256 manifests. Independent reproduction matched 38 CSVs numerically and eight SVGs byte for byte. Raw external imagery/documents and manuscript DOCX files are not redistributed.
