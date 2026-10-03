@@ -1,110 +1,66 @@
-# VIIRS temporal validation: extension through 2024
+# Temporal Validation of VIIRS Nighttime Lights
 
+## Current manuscript status
 
-The Scientific Reports temporal extension, prepared on 30 September 2026, is publicly available as a versioned [GitHub release](https://github.com/tanbole0214/Temporal-Validation-of-VIIRS-Nighttime-Lights/releases/tag/viirs-2024-20260930). Download its PUBLIC_UPLOAD_READY ZIP under Assets; the automatic Source code archives contain only the repository tree, not the statistical package.
+**Current Scientific Reports manuscript title**
 
+> Forward validation reveals temporal and processing-product dependence of VIIRS nighttime lights for prefecture GDP growth in China
 
-After extraction, enter `extensions/viirs_2013_2024_20260930/` and follow `README_TEMPORAL_EXTENSION.md`: install the pinned requirements, then run `python run_extension.py --check` and `python run_extension.py --reproduce`. The package includes derived inputs, the 2014–2024 panel, predictions, table-source CSVs, eight SVGs, provenance and SHA-256 manifests. Independent reproduction matched 38 CSVs numerically and eight SVGs byte for byte. Raw external imagery/documents and manuscript DOCX files are not redistributed.
+The current manuscript is the **R5.1 consolidated submission version**. Its main empirical hierarchy is:
 
+1. strong spatial alignment does not establish forward annual-growth validity;
+2. forward validity is not automatically portable across time;
+3. under common geographic and GDP support, measured incremental value can depend materially on the VIIRS processing product;
+4. outcome-source validity is audited separately from geographic support.
 
-New-year official GDP coverage is 148/148/156 of 296 cities in 2022/2023/2024; no missing GDP is imputed, and no verified common 2025 analysis is included. This extends the temporal evidence only; it does not claim to rerun all historical spatial/ranking/moderator tests.
+The 2022–2024 extension uses the fixed 296-prefecture universe. The mixed-source GDP layer was independently audited and classified **GDP-B: usable with bounded qualifications**. In the verified audit, 98 of 105 predeclared workbook-only observations were resolved; seven remained unresolved. Reasonable GDP source substitutions did not remove the pooled EOG-versus-Black-Marble processing-product disagreement.
 
+## Important replication-status note
 
-**Historical scope:** The unchanged text below describes the earlier IJDE archive. Some directories it references were not deposited in the original tracked tree. Its former GDP gate, Figure 1 caveat and deposit wording are historical, not statements about the new release. Use the new release's own runner and manifests for the 2024 extension.
+The existing public GitHub release:
 
+- [viirs-2024-20260930](https://github.com/tanbole0214/Temporal-Validation-of-VIIRS-Nighttime-Lights/releases/tag/viirs-2024-20260930)
 
----
+is a **verified earlier temporal-extension package** prepared on 30 September 2026. It is retained for provenance and historical reproducibility, but **it does not reproduce the final R5/R5.1 manuscript in full**. In particular, it predates the later 296-prefecture mixed-source extension, GDP-source audit, source-panel sensitivity, paired EOG-versus-Black-Marble loss contrasts, and R5 extension uncertainty.
 
+Do not cite that earlier release as the complete replication package for the R5.1 manuscript.
 
-# Replication archive for the IJDE manuscript
+## R5.1 public-replication status
 
+The R5/R5.1 project contains a public/private separation because some third-party source material and row-level files have unresolved redistribution rights.
 
+A rights-cleared public package is being prepared for submission. It is expected to contain only materials cleared for public redistribution, such as:
 
+- analysis and verification code;
+- derived summary tables where redistribution is permitted;
+- table/figure source files where permitted;
+- source manifests and hashes;
+- public source URLs and reconstruction instructions;
+- environment/package specifications;
+- numerical and document QA reports;
+- reproducibility/check scripts.
 
-**Manuscript:** *From Spatial Fit to Temporal Transfer: Task-Matched Validation of VIIRS Nighttime Lights for Prefecture-Level GDP Growth in China*. This archive is bound by SHA-256 to the Round 16 main and supplementary manuscripts identified in `provenance/manuscript_binding.json`. It contains analysis-ready prefecture-year data, source registries, executable statistical code, archived output tables, and the exact artwork embedded in those documents. It has not been deposited in a public repository and has no assigned DOI.
+Restricted third-party workbooks, acquired source publications, and restricted row-level material will not be uploaded unless redistribution rights are established.
 
+The final Scientific Reports submission should use the exact release/commit identifier of the R5.1 public package once that package has been deposited.
 
+## Historical package
 
+The tracked repository files below primarily document the earlier 2013–2021 / September-2026 replication state. They remain available for provenance:
 
-## What can be reproduced without downloading raw products
+- `run_replication.py`
+- `verify_package.py`
+- `DATA_DICTIONARY.csv`
+- `RESULTS_INDEX.csv`
+- `PACKAGE_SHA256.csv`
+- `EXTERNAL_DATA.md`
+- `REPRODUCTION_QA.md`
+- `CODE_ADAPTATIONS.md`
 
+These files should be interpreted as historical replication materials unless explicitly superseded by the forthcoming R5.1 package.
 
+## Data and code availability
 
+See `DATA_AVAILABILITY_FOR_SUBMISSION.md` and `SCIENTIFIC_REPORTS_R5_1_SUBMISSION_STATUS.md`.
 
-The included panel and light aggregates let a reviewer rerun the rolling temporal validation, B0–B3 benchmarks, conditional M0/M1 comparisons, province-block bootstrap, Moran tests on frozen spatial weights, Conley sensitivity, growth-extreme recovery, model-form checks, AR(1) benchmark, exploratory heterogeneity, forward-calibration coefficients, strict balanced-sample analysis, and the 2017 evaluation-fold influence analysis. The primary continuous pre-COVID target years are 2015–2019; conditional tests begin in 2016. The 2020–2021 outcomes are separate temporal stress tests, not primary folds. The analysis universe is 296 harmonized prefectures across 31 mainland provinces; Sansha is excluded for missing certifiable GDP growth.
-
-
-
-
-The raw annual EOG and NASA rasters, official statistical yearbook pages, and third-party GeoJSON boundaries are **not** bundled. The archive includes their product/file/source registries, exact file names, URLs where recorded, source tiers, and hashes of source files where available. See `EXTERNAL_DATA.md`. Frozen geometry metadata and Queen/4NN edge lists are included, so statistical spatial diagnostics run without boundary GeoJSON. Re-rendering choropleth maps from scratch requires the boundary files; the exact final map artwork is included under `figures/manuscript_embedded/`. The original raw-raster extraction was audited in the study but is not rerun by this package.
-
-
-
-
-## Run
-
-
-
-
-Use Python 3.11 or newer. Install `requirements.txt` into a clean virtual environment and from the archive root run:
-
-
-
-
-```bash
-python run_replication.py --check
-python run_replication.py --full
-```
-
-
-
-
-`--check` verifies packaged input fingerprints, frozen output tables, counts, and key numeric invariants without changing research files. `--full` executes the extended forward and geographic analyses, nine identification-closure stages, exploratory heterogeneity, and Round 14 sensitivity analysis. It stops on the first failed stage, then compares regenerated numeric outputs with the immutable copies in `reference_results/`; run time depends especially on 9,999-draw bootstrap/permutation steps. Generated output files inside the working copy are overwritten. Run on a copy of the archive if preservation of the original byte-for-byte files is important. `--full` never downloads external data.
-
-
-
-
-## Key file groups
-
-
-
-
-- `temporal_extension_2013_2021/07_panel/`: 2014–2021 analysis panel; certified GDP and common-product flags.
-- `temporal_extension_2013_2021/05_ntl_processed/`: 2013–2021 EOG V2.1 and Black Marble VNP46A4 Collection 2 prefecture aggregates.
-- `temporal_extension_2013_2021/08_analysis/`: frozen rolling predictions and primary descriptive/spatial outputs.
-- `round4_ijde_identification_closure/`: nested conditional prediction code, tests, output tables, and audit rows.
-- `round10b_ijde/branch_b/`: exploratory applicability moderators and estimates. Do not interpret these as identified thresholds or causal effects.
-- `round14_ijde/`: forward calibration, 272-prefecture strict balanced sample, and 2017 evaluation influence outputs.
-- `reference_results/`: immutable reference copies used by the packaged numerical comparator.
-- `figures/manuscript_embedded/`: verbatim media extracted from the two bound Word files; `provenance/manuscript_binding.json` records each embedded media checksum and all table-cell transcriptions.
-- `RESULTS_INDEX.csv`: every main and supplementary figure/table linked to data and code.
-
-
-
-
-### Figure 1 version caveat
-
-
-
-
-The Round 16 Word file still embeds the prior Figure 1 raster and its prior caption. The later clarified, editable Figure 1 is supplied under `figures/updated_figure1_not_yet_in_manuscript/`, **not** represented as already embedded or caption-synchronized. Before submission, replace the manuscript image and update the caption/text to match the new diagram. Other manuscript-embedded media are copied verbatim, not redrawn in this archive.
-
-
-
-
-## Statistical contract
-
-
-
-
-Annual real-GDP growth is the official reported percentage transformed as `ln(1 + g/100)`. Annual light change is the log change in a fixed-support city radiance sum. The target-year GDP outcome is excluded from calibration and historical benchmarks; target-year light is observed. Stand-alone light mappings are fitted using only prior GDP years. The conditional incremental test compares an intercept-recalibrated historical M0 with that same benchmark plus light M1; comparison with the unrecalibrated raw historical benchmark answers a different question. Random seeds and 9,999 repetitions are fixed in the original code. The 2022–2024 extension did not clear its GDP certification gate and is not included as evidence or silently appended here.
-
-
-
-
-`DATA_AVAILABILITY_FOR_SUBMISSION.md` contains a statement for the manuscript, with repository location deliberately left unspecified until an actual deposit or journal upload is made.
-
-
-
-
-For a record of path-only code changes and independently rerun checks, see `CODE_ADAPTATIONS.md` and `REPRODUCTION_QA.md`. The included candidate Figure 1 PPTX has anonymized author metadata; its editable slide objects are unchanged from the working original.
+The project does not infer a redistribution licence merely because a source is publicly accessible. Public and restricted materials are separated accordingly.
