@@ -1,45 +1,11 @@
-# Scientific Reports R5.1 submission status
+# Scientific Reports R5.1 submission snapshot
 
-## Manuscript
+Date: 5 October 2026. Snapshot intended for immutable release `sr-r5.1-20261005`.
 
-**Title:** Forward validation reveals temporal and processing-product dependence of VIIRS nighttime lights for prefecture GDP growth in China
+Passed locally: whitelist-only archive (27 files); SHA checks (26 inventoried payload files); clean extracted public summary reproduction in a fresh virtual environment; 64 rows/704 arithmetic checks; submitted Table 3 (48 data cells); separate-input statistical refit (338 metric/invariance checks); 9,999 whole-province-history bootstrap refit (108 point/interval checks). CI values in public-only mode are archived aggregates, not fresh estimates. The original independent empirical 704-check audit is a distinct audit from these 704 summary-arithmetic checks.
 
-**Status:** R5.1 final consolidation completed; no further empirical expansion is recommended before submission.
+ZIP SHA-256: `2b947309a2b157fd9cd1ffdb12c49bebf78753c79792dbcdffe6eda09d897081`. Restricted inputs bundled: no. Author manuscript files bundled: no. New licence granted: no.
 
-## Scientific status
+Author-confirmed declarations: no funding; no related manuscripts/preprints requiring disclosure; compiled workbook provider Markdata (马克集数).
 
-The current evidence hierarchy is:
-
-- primary high-coverage validation: 2015–2019 stand-alone and 2016–2019 conditional;
-- near-national temporal stress: 2020–2021;
-- full 296-prefecture extension: 2022–2024;
-- mixed-source GDP extension independently audited as GDP-B;
-- EOG and Black Marble processing-product disagreement survives reasonable source substitutions;
-- EOG B0–B2 extension loss intervals favor light augmentation;
-- EOG B3 remains statistically qualified;
-- Black Marble B0–B3 extension loss intervals favor the history-only conditional benchmark.
-
-Pre-2022 results remain frozen and unchanged.
-
-## Public-replication status
-
-The repository's existing public release predates the final R5/R5.1 source-validation and processing-product analyses.
-
-**R5.1 public package status: pending rights-cleared deposit.**
-
-Before formal submission:
-
-1. complete the public-share rights review;
-2. deposit the cleared R5/R5.1 package;
-3. freeze the release/tag and SHA-256 inventory;
-4. verify reproduction from a clean checkout/download;
-5. update manuscript Code Availability and Data Availability with the exact final release/commit/DOI;
-6. retain restricted third-party inputs outside the public archive unless redistribution rights are established.
-
-## Restricted-data reviewer access
-
-The submission must state only access arrangements that are actually available. If restricted third-party material may legally be shared confidentially with editors/reviewers, state that explicitly. Otherwise, provide source manifests, locators, hashes, and reconstruction/acquisition instructions and describe the restriction accurately.
-
-## Historical release
-
-The 30 September 2026 release `viirs-2024-20260930` is retained for provenance but must not be represented as the complete R5.1 replication archive.
+Remaining submission condition: establish a lawful, explicit peer-review and post-publication access arrangement for any restricted third-party inputs necessary to verify the study. Public aggregate release does not close that condition. Final release publication, commit/asset verification and the corresponding manuscript availability edits must be evidenced by the actual release record. The earlier September release is not a substitute for this snapshot.

@@ -1,0 +1,13 @@
+﻿source_panel,year,N,unique_prefectures,N_provinces,retained_official_N,new_verified_official_N,workbook_N,common_three_year_prefectures,evaluation_rule
+P1,2022,296,296,31,158,0,138,296,full recursive source-defined GDP history
+P1,2023,296,296,31,158,0,138,296,full recursive source-defined GDP history
+P1,2024,296,296,31,166,0,130,296,full recursive source-defined GDP history
+P2,2022,296,296,31,0,0,296,296,full recursive source-defined GDP history
+P2,2023,296,296,31,0,0,296,296,full recursive source-defined GDP history
+P2,2024,296,296,31,0,0,296,296,full recursive source-defined GDP history
+P3,2022,158,158,16,158,0,0,158,"P1/R4 fits evaluated on retained official subset, no separate missing-history fit"
+P3,2023,158,158,16,158,0,0,158,"P1/R4 fits evaluated on retained official subset, no separate missing-history fit"
+P3,2024,166,166,17,166,0,0,158,"P1/R4 fits evaluated on retained official subset, no separate missing-history fit"
+P4,2022,296,296,31,158,36,102,296,full recursive source-defined GDP history
+P4,2023,296,296,31,158,40,98,296,full recursive source-defined GDP history
+P4,2024,296,296,31,166,32,98,296,full recursive source-defined GDP history

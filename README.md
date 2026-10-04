@@ -1,66 +1,21 @@
 # Temporal Validation of VIIRS Nighttime Lights
 
-## Current manuscript status
+## Current Scientific Reports R5.1 materials
 
-**Current Scientific Reports manuscript title**
+Manuscript: Forward validation reveals temporal and processing-product dependence of VIIRS nighttime lights for prefecture GDP growth in China.
 
-> Forward validation reveals temporal and processing-product dependence of VIIRS nighttime lights for prefecture GDP growth in China
+The R5.1 public code and aggregate-results snapshot is in [replication/r5_1_20261005/](replication/r5_1_20261005/). Its designated release is [sr-r5.1-20261005](https://github.com/tanbole0214/Temporal-Validation-of-VIIRS-Nighttime-Lights/releases/tag/sr-r5.1-20261005); the release page is the publication record, and the exact commit is recorded there. The downloadable author-assembled archive is `Scientific_Reports_R5_1_Public_Code_and_Summary_Replication_20261005.zip` with SHA-256 `2b947309a2b157fd9cd1ffdb12c49bebf78753c79792dbcdffe6eda09d897081`.
 
-The current manuscript is the **R5.1 consolidated submission version**. Its main empirical hierarchy is:
+This is a public statistical-code and summary-reproduction deposit, not a complete microdata or raw-source release. In a clean extracted archive and a fresh virtual environment, the public runner reproduces 64 metric rows (704 arithmetic checks) and all 48 data cells in the submitted Table 3. Separately, the same runner with retained, hash-bound inputs passed 338 model/invariance checks and 108 bootstrap point/interval checks. Public-only use does not refit restricted city-level models or re-estimate intervals.
 
-1. strong spatial alignment does not establish forward annual-growth validity;
-2. forward validity is not automatically portable across time;
-3. under common geographic and GDP support, measured incremental value can depend materially on the VIIRS processing product;
-4. outcome-source validity is audited separately from geographic support.
+The extension retains 296 prefectures. Independent verification resolved 98 of 105 predeclared observations; seven remain unresolved. The verified-enhanced panel contains 590 official outcomes and 298 compiled outcomes. The 108 newly inspected official outcomes are not the sampled verification completion count. The qualified GDP-B classification and fragile most-recent-history EOG result remain unchanged.
 
-The 2022–2024 extension uses the fixed 296-prefecture universe. The mixed-source GDP layer was independently audited and classified **GDP-B: usable with bounded qualifications**. In the verified audit, 98 of 105 predeclared workbook-only observations were resolved; seven remained unresolved. Reasonable GDP source substitutions did not remove the pooled EOG-versus-Black-Marble processing-product disagreement.
+## Data access boundary
 
-## Important replication-status note
+The compiled workbook provider is Markdata (马克集数; macrodatas.cn). Workbook redistribution and restricted derivative access require provider permissions; none are inferred here. Row-level panels, predictions/losses, raw publications, detailed verification records, raw rasters and boundary geometries are not public. Contact Zhong Li at lizhong@caas.cn for author-controlled documentation and lawful input access enquiries; a request channel is not an unconditional reviewer-access guarantee.
 
-The existing public GitHub release:
+## Historical materials
 
-- [viirs-2024-20260930](https://github.com/tanbole0214/Temporal-Validation-of-VIIRS-Nighttime-Lights/releases/tag/viirs-2024-20260930)
+Root-level scripts and the [viirs-2024-20260930 release](https://github.com/tanbole0214/Temporal-Validation-of-VIIRS-Nighttime-Lights/releases/tag/viirs-2024-20260930) document the earlier temporal-extension state. They are retained without alteration and must not be cited as complete R5.1 replication. Use the versioned subdirectory above for R5.1 summary reproduction.
 
-is a **verified earlier temporal-extension package** prepared on 30 September 2026. It is retained for provenance and historical reproducibility, but **it does not reproduce the final R5/R5.1 manuscript in full**. In particular, it predates the later 296-prefecture mixed-source extension, GDP-source audit, source-panel sensitivity, paired EOG-versus-Black-Marble loss contrasts, and R5 extension uncertainty.
-
-Do not cite that earlier release as the complete replication package for the R5.1 manuscript.
-
-## R5.1 public-replication status
-
-The R5/R5.1 project contains a public/private separation because some third-party source material and row-level files have unresolved redistribution rights.
-
-A rights-cleared public package is being prepared for submission. It is expected to contain only materials cleared for public redistribution, such as:
-
-- analysis and verification code;
-- derived summary tables where redistribution is permitted;
-- table/figure source files where permitted;
-- source manifests and hashes;
-- public source URLs and reconstruction instructions;
-- environment/package specifications;
-- numerical and document QA reports;
-- reproducibility/check scripts.
-
-Restricted third-party workbooks, acquired source publications, and restricted row-level material will not be uploaded unless redistribution rights are established.
-
-The final Scientific Reports submission should use the exact release/commit identifier of the R5.1 public package once that package has been deposited.
-
-## Historical package
-
-The tracked repository files below primarily document the earlier 2013–2021 / September-2026 replication state. They remain available for provenance:
-
-- `run_replication.py`
-- `verify_package.py`
-- `DATA_DICTIONARY.csv`
-- `RESULTS_INDEX.csv`
-- `PACKAGE_SHA256.csv`
-- `EXTERNAL_DATA.md`
-- `REPRODUCTION_QA.md`
-- `CODE_ADAPTATIONS.md`
-
-These files should be interpreted as historical replication materials unless explicitly superseded by the forthcoming R5.1 package.
-
-## Data and code availability
-
-See `DATA_AVAILABILITY_FOR_SUBMISSION.md` and `SCIENTIFIC_REPORTS_R5_1_SUBMISSION_STATUS.md`.
-
-The project does not infer a redistribution licence merely because a source is publicly accessible. Public and restricted materials are separated accordingly.
+See DATA_AVAILABILITY_FOR_SUBMISSION.md and SCIENTIFIC_REPORTS_R5_1_SUBMISSION_STATUS.md. No new blanket code or third-party data licence is assigned by this deposit.
