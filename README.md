@@ -12,10 +12,16 @@ The extension retains 296 prefectures. Independent verification resolved 98 of 1
 
 ## Data access boundary
 
-The compiled workbook provider is Markdata (马克集数; macrodatas.cn). Workbook redistribution and restricted derivative access require provider permissions; none are inferred here. Row-level panels, predictions/losses, raw publications, detailed verification records, raw rasters and boundary geometries are not public. Contact Zhong Li at lizhong@caas.cn for author-controlled documentation and lawful input access enquiries; a request channel is not an unconditional reviewer-access guarantee.
+The compiled workbook provider is Markdata (马克集数; macrodatas.cn). Workbook redistribution and restricted derivative access require provider permissions; none are inferred here. The new R5.1 package excludes city-year GDP panels, predictions/losses, acquired publications, detailed verification records, raw rasters and boundary geometries. This boundary is specific to R5.1; the separate September release contains earlier official-source city-level data and predictions, not the current compiled Markdata extension. Historical assets have not been newly rights-certified here. Contact Zhong Li at lizhong@caas.cn for author-controlled documentation and lawful input access enquiries; a request channel is not an unconditional reviewer-access guarantee.
 
 ## Historical materials
 
 Root-level scripts and the [viirs-2024-20260930 release](https://github.com/tanbole0214/Temporal-Validation-of-VIIRS-Nighttime-Lights/releases/tag/viirs-2024-20260930) document the earlier temporal-extension state. They are retained without alteration and must not be cited as complete R5.1 replication. Use the versioned subdirectory above for R5.1 summary reproduction.
 
 See DATA_AVAILABILITY_FOR_SUBMISSION.md and SCIENTIFIC_REPORTS_R5_1_SUBMISSION_STATUS.md. No new blanket code or third-party data licence is assigned by this deposit.
+
+## Frozen release and environment correction
+
+Published release verified: `sr-r5.1-20261005`, commit `576c1fa4a7dde1af7f752ec121564e3cffc6aa74`. The attached 67,507-byte ZIP matches its published SHA-256 and passed fresh-environment extracted-ZIP replay. The tag and ZIP have not been moved or replaced. GitHub-enforced release immutability is not enabled; the exact commit and asset checksum identify the snapshot.
+
+Use Python 3.11 or later; tests used Python 3.12.14. The frozen `ENVIRONMENT.json` minimum of 3.10 is a metadata error explained in the release notes. Statistical code and results are unchanged.
