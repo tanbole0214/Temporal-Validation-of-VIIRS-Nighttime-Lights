@@ -4,15 +4,17 @@
 
 Manuscript: Forward validation reveals temporal and processing-product dependence of VIIRS nighttime lights for prefecture GDP growth in China.
 
-The R5.1 public code and aggregate-results snapshot is in [replication/r5_1_20261005/](replication/r5_1_20261005/). Its designated release is [sr-r5.1-20261005](https://github.com/tanbole0214/Temporal-Validation-of-VIIRS-Nighttime-Lights/releases/tag/sr-r5.1-20261005); the release page is the publication record, and the exact commit is recorded there. The downloadable author-assembled archive is `Scientific_Reports_R5_1_Public_Code_and_Summary_Replication_20261005.zip` with SHA-256 `2b947309a2b157fd9cd1ffdb12c49bebf78753c79792dbcdffe6eda09d897081`.
+The R5.1 public code and aggregate-results snapshot is in [replication/r5_1_20261005/](replication/r5_1_20261005/). The current submission should cite the exact repository commit containing the corrected source-provenance documentation. The earlier release `sr-r5.1-20261005` remains a historical snapshot of the same statistical code and aggregate results but predates the final source-provenance wording correction.
 
 This is a public statistical-code and summary-reproduction deposit, not a complete microdata or raw-source release. In a clean extracted archive and a fresh virtual environment, the public runner reproduces 64 metric rows (704 arithmetic checks) and all 48 data cells in the submitted Table 3. Separately, the same runner with retained, hash-bound inputs passed 338 model/invariance checks and 108 bootstrap point/interval checks. Public-only use does not refit restricted city-level models or re-estimate intervals.
 
 The extension retains 296 prefectures. Independent verification resolved 98 of 105 predeclared observations; seven remain unresolved. The verified-enhanced panel contains 590 official outcomes and 298 compiled outcomes. The 108 newly inspected official outcomes are not the sampled verification completion count. The qualified GDP-B classification and fragile most-recent-history EOG result remain unchanged.
 
-## Data access boundary
+## GDP source provenance and access boundary
 
-The compiled workbook provider is Markdata (马克集数; macrodatas.cn). Workbook redistribution and restricted derivative access require provider permissions; none are inferred here. The new R5.1 package excludes city-year GDP panels, predictions/losses, acquired publications, detailed verification records, raw rasters and boundary geometries. This boundary is specific to R5.1; the separate September release contains earlier official-source city-level data and predictions, not the current compiled Markdata extension. Historical assets have not been newly rights-certified here. Contact Zhong Li at lizhong@caas.cn for author-controlled documentation and lawful input access enquiries; a request channel is not an unconditional reviewer-access guarantee.
+The underlying prefecture GDP source data are the *China City Statistical Yearbook* (中国城市统计年鉴; relevant editions through 2025) and municipal/provincial statistical-bureau publications. A compiled workbook was used only as an intermediary extraction and harmonization layer for part of the 2022-2024 extension and is not treated as an original statistical source. Official observations independently retrieved from the upstream statistical publications take precedence whenever available.
+
+The R5.1 public layer excludes the intermediary compiled workbook, city-year GDP panels, predictions/losses, acquired publications, detailed verification records, raw rasters and boundary geometries. Users seeking source-level reconstruction should consult the original yearbooks and statistical-bureau publications together with the source locators, hashes and verification documentation retained by the authors. Contact Zhong Li at lizhong@caas.cn for author-controlled processing and verification documentation.
 
 ## Historical materials
 
@@ -20,8 +22,6 @@ Root-level scripts and the [viirs-2024-20260930 release](https://github.com/tanb
 
 See DATA_AVAILABILITY_FOR_SUBMISSION.md and SCIENTIFIC_REPORTS_R5_1_SUBMISSION_STATUS.md. No new blanket code or third-party data licence is assigned by this deposit.
 
-## Frozen release and environment correction
+## Environment
 
-Published release verified: `sr-r5.1-20261005`, commit `576c1fa4a7dde1af7f752ec121564e3cffc6aa74`. The attached 67,507-byte ZIP matches its published SHA-256 and passed fresh-environment extracted-ZIP replay. The tag and ZIP have not been moved or replaced. GitHub-enforced release immutability is not enabled; the exact commit and asset checksum identify the snapshot.
-
-Use Python 3.11 or later; tests used Python 3.12.14. The frozen `ENVIRONMENT.json` minimum of 3.10 is a metadata error explained in the release notes. Statistical code and results are unchanged.
+Use Python 3.11 or later; tests used Python 3.12.14. Statistical code and empirical results are unchanged by the source-provenance documentation correction.
