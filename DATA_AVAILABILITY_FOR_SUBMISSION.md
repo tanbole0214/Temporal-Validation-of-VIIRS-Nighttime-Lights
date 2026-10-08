@@ -1,5 +1,13 @@
-# Data availability statement for submission
+# R5.1 public and restricted availability
 
-The analysis-ready prefecture-year panel, derived VIIRS nighttime-light aggregates, code, input provenance registers, and tabular outputs underlying this study are included in an anonymized replication archive supplied with the submission. The original EOG Annual VNL V2.1 and NASA Black Marble VNP46A4.002 raster files, official statistical source documents, and third-party boundary GeoJSON are not redistributed in that archive. The replication README and external-data manifest give exact product versions, recorded file names, source URLs, hashes where available, and access requirements. The supplied derived data reproduce the reported statistical analyses without downloading the original raster files. Raw-raster-to-panel reconstruction and fresh boundary-map rendering require the separately available sources. The archive has not yet been assigned a public repository DOI; the final availability statement should be updated with the actual supplementary-file location or persistent repository link after deposit.
+Author statistical code, aggregate outputs, submitted Table 3, input fingerprints and reproducibility instructions are deposited in `replication/r5_1_20261005/`. Public summary replay and an input-conditioned model/bootstrap refit are separate documented modes. The public files support only the first; full statistical refitting requires the exact processed inputs identified by hashes.
 
-Submission check: verify the current *International Journal of Digital Earth* Instructions for Authors and publisher data policy in the submission portal before uploading, particularly whether data/code should be an anonymous reviewer file or a blinded repository link. Do not replace the final sentence with a repository claim or DOI until a deposit exists. If an online archive is used for double-anonymous review, remove identifying account metadata and use an anonymous review link.
+## GDP source provenance
+
+The underlying prefecture GDP source data are the *China City Statistical Yearbook* (中国城市统计年鉴; relevant editions through 2025), compiled by the Urban Socio-Economic Survey Department of the National Bureau of Statistics, together with municipal and provincial statistical-bureau publications.
+
+A compiled 296-prefecture workbook was used as an intermediary extraction/harmonization file for part of the 2022-2024 extension. It is not treated as an original statistical source. Official observations independently retrieved from the upstream statistical publications take precedence whenever available.
+
+The intermediary workbook and restricted city-year derivatives are not included in the public deposit. The public and author-held documentation retain source titles, locators, vintages, hashes and verification evidence where available. Seven sampled verifications remain unresolved, and the verified-enhanced panel retains 298 compiled entries; these qualifications remain explicit in the manuscript and Supplementary Information.
+
+Original EOG/NASA and continuation product locations are documented in the versioned EXTERNAL_DATA.md. Public accessibility does not itself grant redistribution permission for raw third-party files.

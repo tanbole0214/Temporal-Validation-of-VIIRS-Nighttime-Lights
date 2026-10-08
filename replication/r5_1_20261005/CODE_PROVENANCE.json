@@ -1,0 +1,56 @@
+[
+  {
+    "upstream_source_filename": "frozen_stage6_validation.py",
+    "upstream_source_sha256": "6949d3fce11dbd952a370f2a04e69b7150f20202cd577672c0046bd326dc9cc1",
+    "functions": [
+      {
+        "name": "score",
+        "source_segment_sha256": "709ec7dced2f35dd20a0eae7539f806b4f81f30a5f3792da58c2687692306299"
+      },
+      {
+        "name": "fit_ols",
+        "source_segment_sha256": "389a9b9682d1dad9235f86c070a78d27b58e534a1a511f0e7f00643bf7830853"
+      },
+      {
+        "name": "benchmark_predictions",
+        "source_segment_sha256": "664cfbe04296a8a7792988484f38deac995535fe3898ddfd248c4773fdb9d240"
+      },
+      {
+        "name": "run_standalone",
+        "source_segment_sha256": "24c50f8fd529b840f3254c597fa712f906e56ddcbb7dbbf6ccb9c3c3200bb2c8"
+      },
+      {
+        "name": "build_nested_data",
+        "source_segment_sha256": "734cfa6316060eb21c44e472ca6cc12bb0cc2799e49b1598d6e5748ed051ee91"
+      },
+      {
+        "name": "run_conditional",
+        "source_segment_sha256": "fdd9130621bfa8f31026bac65a9e2a63bac99e2b99e9c28c612d74eeb3e591f2"
+      }
+    ],
+    "adaptation": "Only module setup and file-bound orchestration replaced. Function bodies copied verbatim."
+  },
+  {
+    "upstream_source_filename": "stage11_province_panel_bootstrap.py",
+    "upstream_source_sha256": "6a2367446508957438ee036e498c2c95b170848fa65f447d20cc558db9ddbabc",
+    "functions": [
+      {
+        "name": "by_province",
+        "source_segment_sha256": "20849bd8809efc3d358c7bcdb0bcfa3180af30b0a5829cb01a9f29ea73faaf52"
+      },
+      {
+        "name": "pack",
+        "source_segment_sha256": "2278094528b339850e0d764875a8b1b6493eca385ee4858e49897b2c8d99688d"
+      },
+      {
+        "name": "evaluate",
+        "source_segment_sha256": "cd70d73648d066271cba3e4a6eb760163fec44d632824345cd750d842a2a9d30"
+      },
+      {
+        "name": "literal_duplicate",
+        "source_segment_sha256": "5c3fce7042adc6bbad7b922444578d91eb96c5e5ba1f67b158cb0507f2f429a3"
+      }
+    ],
+    "adaptation": "Only module setup and file-bound orchestration replaced. Function bodies copied verbatim."
+  }
+]
