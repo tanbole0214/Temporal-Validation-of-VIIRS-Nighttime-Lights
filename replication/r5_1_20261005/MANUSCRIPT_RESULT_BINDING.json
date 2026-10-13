@@ -1,7 +1,7 @@
 {
-  "title": "Forward validation reveals temporal and processing-product dependence of VIIRS nighttime lights for prefecture GDP growth in China",
-  "source_submission_manuscript_sha256": "138106275360bbad5e7d385dbbbd27d72c5504838eaa75c305a6755be00506b0",
-  "binding_scope": "R5.1 scientific content before final release citations and funding declaration; availability-only edits do not change numerical results",
+  "title": "Assessing the incremental value of VIIRS nighttime lights for prefecture-level GDP growth in China",
+  "historical_source_submission_manuscript_sha256": "138106275360bbad5e7d385dbbbd27d72c5504838eaa75c305a6755be00506b0",
+  "binding_scope": "R5.1 extension estimates and Table 3 are retained. The 2026-10-13 correction updates packaging, source-access disclosure and current manuscript title; the historical manuscript hash is not the hash of the current submission file.",
   "submission_table_3_rows": 8,
   "submission_table_3_columns": 6,
   "public_package_scope": "R5/R5.1 temporal source-panel analyses, full statistical method code, aggregate outputs; not complete microdata or raw-source reproduction"

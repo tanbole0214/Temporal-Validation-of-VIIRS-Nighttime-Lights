@@ -7,3 +7,5 @@ Excluded: the intermediary compiled GDP workbook and acquired source publication
 The workbook-versus-official scatter SVG is excluded because vector point geometry may approximately reveal observations. Removing an Excel file alone does not ensure that derivatives reveal no row-level values.
 
 The public layer supports summary replay without row-level inputs. Refitting requires separately obtained exact statistical inputs. The paper's substantive method, original-source qualifications and empirical conclusions are not obscured by this separation. No false licence, DOI or full-public-reproduction claim is created.
+
+The direct compiled-workbook provider is Markdata (马克集数). The provider's published membership terms restrict third-party supply and overseas use; see DATA_ACCESS.md. Naming the official upstream statistical issuers does not replace this provider disclosure. This correction reuses previously public code and aggregates and adds no restricted data. Permission to share the retained workbook or row-level derivatives has not been established by this release.

@@ -4,7 +4,7 @@
     "numpy": "2.3.5",
     "pandas": "3.0.1"
   },
-  "minimum_python": "3.10",
+  "minimum_python": "3.11",
   "bootstrap_seed": 20261002,
   "bootstrap_draws": 9999,
   "bootstrap_scheme": "31 whole province histories; common draws; full fold refits; fixed ordered 2022-2024 sequence"

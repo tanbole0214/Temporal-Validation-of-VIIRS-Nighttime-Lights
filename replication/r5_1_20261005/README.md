@@ -2,9 +2,13 @@
 
 This archive supports the R5/R5.1 temporal validation and mixed-source sensitivity results for 296 Chinese prefectures. It contains readable statistical code, aggregate numerical results, the submitted Table 3 source, input fingerprints and access documentation. It deliberately does not contain restricted row-level observations or acquired source publications.
 
+Current manuscript: Assessing the incremental value of VIIRS nighttime lights for prefecture-level GDP growth in China.
+
+The 13 October 2026 packaging correction standardizes LF line endings, regenerates the byte-level manifest, sets the minimum Python version to 3.11 and restores direct-provider/access disclosure. Statistical code and aggregate numerical values are unchanged. See CHECKSUM_CORRECTION_20261013.md. The directory name preserves the original R5.1 release lineage; cite the corrected commit/release, not the previously failing a3e8fa7 snapshot.
+
 ## Public reproduction
 
-Install the pinned requirements in a clean Python environment, then run:
+Use Python 3.11 or later. Install the pinned requirements in a clean Python environment, then run:
 
 ```
 python -m pip install -r requirements.txt
@@ -26,7 +30,7 @@ The absence of row-level inputs is an explicit access boundary, not a hidden cod
 
 ## GDP source provenance
 
-The underlying prefecture GDP source data are the *China City Statistical Yearbook* (中国城市统计年鉴; relevant editions through 2025) and municipal/provincial statistical-bureau publications. A compiled workbook was used only as an intermediary extraction/harmonization layer for part of the 2022-2024 extension and is not treated as an original statistical source. Official observations independently retrieved from the upstream statistical publications take precedence whenever available.
+The underlying prefecture GDP source data are the *China City Statistical Yearbook* (中国城市统计年鉴; relevant editions through 2025) and municipal/provincial statistical-bureau publications. The compiled workbook used for part of the 2022-2024 extension was supplied by Markdata (马克集数; https://s.macrodatas.cn/). It is an intermediary third-party compilation, not an original official source. Official observations independently retrieved from upstream publications take precedence whenever available. Provider terms restrict third-party supply and overseas use; an agreed verification-access arrangement remains to be established. See DATA_ACCESS.md for the actual provider route and restrictions.
 
 Contact the corresponding author, Zhong Li, at lizhong@caas.cn for additional author-controlled processing and verification documentation. See `DATA_ACCESS.md`, `EXTERNAL_DATA.md` and `PUBLIC_PRIVATE_BOUNDARY.md`.
 
