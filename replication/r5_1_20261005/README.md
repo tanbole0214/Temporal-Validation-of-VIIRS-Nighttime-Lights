@@ -30,7 +30,7 @@ The absence of row-level inputs is an explicit access boundary, not a hidden cod
 
 ## GDP source provenance
 
-The underlying prefecture GDP source data are the *China City Statistical Yearbook* (中国城市统计年鉴; relevant editions through 2025) and municipal/provincial statistical-bureau publications. The compiled workbook used for part of the 2022-2024 extension was supplied by Markdata (马克集数; https://s.macrodatas.cn/). It is an intermediary third-party compilation, not an original official source. Official observations independently retrieved from upstream publications take precedence whenever available. Provider terms restrict third-party supply and overseas use; an agreed verification-access arrangement remains to be established. See DATA_ACCESS.md for the actual provider route and restrictions.
+The underlying prefecture GDP source data are the *China City Statistical Yearbook* (中国城市统计年鉴; relevant editions through 2025) and municipal/provincial statistical-bureau publications. The compiled workbook used for part of the 2022-2024 extension was supplied by Markdata (https://s.macrodatas.cn/). It is an intermediary third-party compilation, not an original official source. Official observations independently retrieved from upstream publications take precedence whenever available. Provider terms restrict third-party supply and overseas use; an agreed verification-access arrangement remains to be established. See DATA_ACCESS.md for the actual provider route and restrictions.
 
 Contact the corresponding author, Zhong Li, at lizhong@caas.cn for additional author-controlled processing and verification documentation. See `DATA_ACCESS.md`, `EXTERNAL_DATA.md` and `PUBLIC_PRIVATE_BOUNDARY.md`.
 
